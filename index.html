@@ -29,13 +29,13 @@
         <div id="badresponce"></div>
         <span style="width: 100%;" id="responce"></span>
         <label>Sender ID</label>
-        <input type="text" id="senderid" placeholder="Google" value="<?php if(isset($_COOKIE['twilio_sender_stored'])){echo $_COOKIE['twilio_sender_stored'];}?>">
+        <input type="text" id="senderid" placeholder="Google" value="">
         <label>Message</label>
         <textarea placeholder="Message" id="message"></textarea>
 
         <label>API</label>
         <div class="skbox">
-            <input type="" id="api" name="api" placeholder="ACXXXXXXXXXXXXXXXXXXXXXXXXX | TOKEN" value="<?php if(isset($_COOKIE['twilio_Api_stored'])){echo $_COOKIE['twilio_Api_stored'];}?>">
+            <input type="" id="api" name="api" placeholder="ACXXXXXXXXXXXXXXXXXXXXXXXXX | TOKEN" value="">
             <div onclick="checkapi()">CHECK</div>
             <span id="ModalMsg">RESULTS</span>
          </div>
